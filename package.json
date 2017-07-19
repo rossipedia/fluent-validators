@@ -10,7 +10,10 @@
     "clean": "rimraf lib && rimraf fluent-validators.js"
   },
   "files": [
-    "lib/*.d.ts"
+    "lib/*.d.ts",
+    "fluent-validators.js",
+    "fluent-validators.umd.js",
+    "fluent-validators.umd.min.js"
   ],
   "types": "./lib/index.d.ts",
   "devDependencies": {
