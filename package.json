@@ -4,7 +4,7 @@
   "main": "fluent-validators.js",
   "license": "MIT",
   "scripts": {
-    "prepublish": "yarn-or-npm run build",
+    "prepare": "yarn-or-npm run build",
     "build": "tsc && rollup -c && prettier --write fluent-validators.js",
     "test": "jest",
     "clean": "rimraf lib && rimraf fluent-validators.js"
