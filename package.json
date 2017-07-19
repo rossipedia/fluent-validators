@@ -1,6 +1,6 @@
 {
   "name": "@rossipedia/fluent-validators",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "fluent-validators.js",
   "license": "MIT",
   "scripts": {
