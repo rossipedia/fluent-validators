@@ -1,0 +1,36 @@
+{
+  "name": "@rossipedia/fluent-validators",
+  "version": "0.0.1",
+  "main": "fluent-validators.js",
+  "license": "MIT",
+  "scripts": {
+    "prepublish": "yarn-or-npm run build",
+    "build": "tsc && rollup -c && prettier --write fluent-validators.js",
+    "test": "jest"
+  },
+  "files": [
+    "lib/*.d.ts"
+  ],
+  "types": "./lib/index.d.ts",
+  "devDependencies": {
+    "@types/jest": "^20.0.4",
+    "jest": "^20.0.4",
+    "prettier": "^1.5.3",
+    "rollup": "^0.45.2",
+    "ts-jest": "^20.0.7",
+    "typescript": "^2.4.1",
+    "uglify-js": "^3.0.25",
+    "yarn-or-npm": "^2.0.4"
+  },
+  "jest": {
+    "transform": {
+      ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ]
+  }
+}
