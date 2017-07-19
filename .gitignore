@@ -1,5 +1,4 @@
 node_modules
 lib
 *.tgz
-composables.js
-composables.min.js*.tgz
+fluent-validators.js
