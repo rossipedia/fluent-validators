@@ -1,4 +1,4 @@
 node_modules
 lib
 *.tgz
-fluent-validators.js
+fluent-validators*.js

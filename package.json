@@ -19,6 +19,7 @@
     "prettier": "^1.5.3",
     "rimraf": "^2.6.1",
     "rollup": "^0.45.2",
+    "rollup-plugin-uglify": "^2.0.1",
     "ts-jest": "^20.0.7",
     "typescript": "^2.4.1",
     "uglify-js": "^3.0.25",
