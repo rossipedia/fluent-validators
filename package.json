@@ -6,7 +6,8 @@
   "scripts": {
     "prepublish": "yarn-or-npm run build",
     "build": "tsc && rollup -c && prettier --write fluent-validators.js",
-    "test": "jest"
+    "test": "jest",
+    "clean": "rimraf lib && rimraf fluent-validators.js"
   },
   "files": [
     "lib/*.d.ts"
@@ -16,6 +17,7 @@
     "@types/jest": "^20.0.4",
     "jest": "^20.0.4",
     "prettier": "^1.5.3",
+    "rimraf": "^2.6.1",
     "rollup": "^0.45.2",
     "ts-jest": "^20.0.7",
     "typescript": "^2.4.1",
